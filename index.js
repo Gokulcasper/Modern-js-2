@@ -97,3 +97,45 @@ this.start=function(){
 }
 let car1 = new car("black","BMW");
 console.log(car1);
+
+// JS Functions
+// Name Property
+function car2(color,brand){
+    this.color=color;
+    this.brand = brand;
+    this.start = function(){
+        console.log("started");
+    };
+}
+console.log(car.name);
+// Length Property
+function car2(color,brand){
+    this.color=color;
+    this.brand = brand;
+    this.start = function(){
+        console.log("started");
+    };
+}
+console.log(car.length);
+//typeOf function
+function car2(color,brand){
+    this.color=color;
+    this.brand = brand;
+    this.start = function(){
+        console.log("started");
+    };
+}
+console.log(typeof(car));
+
+// Constructor Property
+function car4(color,brand){
+    this.color=color;
+    this.brand = brand;
+    this.start = function(){
+        console.log("started");
+    };
+}
+let car5 = new car4("blue","BMW");
+console.log(car5.constructor);
+
+
